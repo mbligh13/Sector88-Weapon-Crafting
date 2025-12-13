@@ -64,7 +64,7 @@ class CfgVehicles
         scope = 2;
         displayName = "Small Spring";
         descriptionShort = "A small tension spring used in crafting lower-tier magazines and pistol-caliber firearm components.";
-        model = "\dz\gear\tools\toolhead.p3d";
+        model = "\@Sector88_Crafting\addons\data\models\small_spring.p3d";
         hiddenSelectionsTextures[] = {"\Sector88_WeaponParts\data\icons\spring_small_ca.paa"};
         weight = 50;
         itemSize[] = {1,1};
@@ -75,7 +75,7 @@ class CfgVehicles
         scope = 2;
         displayName = "Large Spring";
         descriptionShort = "A heavy-duty spring used in crafting high-capacity magazines and advanced rifle components.";
-        model = "\dz\gear\tools\toolhead.p3d";
+        model = "\@Sector88_Crafting\addons\data\models\large_spring.p3d";
         hiddenSelectionsTextures[] = {"\Sector88_WeaponParts\data\icons\spring_large_ca.paa"};
         weight = 80;
         itemSize[] = {1,2};
@@ -90,7 +90,7 @@ class CfgVehicles
         scope = 2;
         displayName = "Small Sheet Metal";
         descriptionShort = "Light sheet metal used for crafting magazine bodies and firearm internals.";
-        model = "\dz\weapons\ammunition\data\ammobox_556.p3d";
+        model = "\@Sector88_Crafting\addons\data\models\small_sheet_metal.p3d";
         hiddenSelectionsTextures[] = {"\Sector88_WeaponParts\data\icons\sheetmetal_small_ca.paa"};
         weight = 100;
         itemSize[] = {2,1};
@@ -129,7 +129,7 @@ class CfgVehicles
     class S88_Barrel_Base: S88_PartBase
     {
         scope = 0;
-        model = "\dz\structures\industrial\metal\metal_pipe.p3d";
+        model = "\@Sector88_Crafting\addons\data\models\barrel.p3d";
         weight = 350;
         itemSize[] = {3,1};
     };
@@ -300,7 +300,7 @@ class CfgVehicles
     class S88_LowerReceiver_Base: S88_PartBase
     {
         scope = 0;
-        model = "\dz\gear\tools\toolhead.p3d";
+        model = "\@Sector88_Crafting\addons\data\models\lower_receiver.p3d";
         weight = 350;
         itemSize[] = {2,2};
     };
@@ -471,7 +471,7 @@ class CfgVehicles
     class S88_UpperReceiver_Base: S88_PartBase
     {
         scope = 0;
-        model = "\dz\gear\tools\toolhead.p3d";
+        model = "\@Sector88_Crafting\addons\data\models\upper_receiver.p3d";
         weight = 380;
         itemSize[] = {2,2};
     };
