@@ -1,0 +1,28 @@
+{
+    "Name": "Break 12ga Shotguns",
+    "ActionType": "Craft",
+    "CraftingTime": 4,
+    "Animation": "WorkOnBench",
+    "Workbench": "ExpansionWorkbench",
+
+    "Ingredients": {
+        "X": [
+            { "ClassName": "MP133Shotgun", "Amount": 1 },
+            { "ClassName": "MosinShotgun", "Amount": 1 }
+        ]
+    },
+
+    "Result": {
+        "Create": [
+            { "ClassName": "S88_Barrel_12ga", "Amount": 1 },
+            { "ClassName": "S88_UpperReceiver_12ga", "Amount": 1 },
+            { "ClassName": "S88_LowerReceiver_12ga", "Amount": 1 }
+        ],
+        "Delete": [
+            { "ClassName": "MP133Shotgun", "Amount": 1 },
+            { "ClassName": "MosinShotgun", "Amount": 1 }
+        ]
+    },
+
+    "Tags": ["S88_BreakGun"]
+}
